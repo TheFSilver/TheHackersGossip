@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @gossip.content %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @gossip.date %>
+</p>
+
+<p>
+  <strong>Moussaillon:</strong>
+  <%= @gossip.moussaillon %>
+</p>
+
+<%= link_to 'Edit', edit_gossip_path(@gossip) %> |
+<%= link_to 'Back', gossips_path %>

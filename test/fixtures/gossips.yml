@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyText
+  date: 2018-08-07 18:28:07
+  moussaillon: one
+
+two:
+  content: MyText
+  date: 2018-08-07 18:28:07
+  moussaillon: two

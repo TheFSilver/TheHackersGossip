@@ -1,0 +1,5 @@
+<% if !moussaillon_signed_in? %>
+  <%= render 'unlogged' %>
+<% elsif moussaillon_signed_in? %>
+  <%= render 'logged' %>
+<% end %>
