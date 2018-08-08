@@ -4,7 +4,7 @@
 
   <div class="field">
     <%= f.label :anonymous_username %><br />
-    <%= f.email_field :anonymous_username, autofocus: true, autocomplete: "anonymous username" %>
+    <%= f.text_field :anonymous_username, autofocus: true, autocomplete: "anonymous username" %>
   </div>
 
   <%= devise_error_messages! %>

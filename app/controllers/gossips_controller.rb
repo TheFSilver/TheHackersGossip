@@ -1,5 +1,5 @@
 class GossipsController < ApplicationController
-  before_action :moussaillon_signed_in?, only: [:show, :edit, :update, :destroy]
+  before_action :moussaillon_signed_in?, only: [:new_gossip, :edit_gossip, :show, :edit, :update, :destroy]
   before_action :set_gossip, only: [:show, :edit, :update, :destroy]
 
   # GET /gossips

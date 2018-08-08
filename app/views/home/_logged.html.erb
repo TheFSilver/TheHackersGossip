@@ -18,7 +18,7 @@
     <strong>Moussaillon:</strong>
     <%= Moussaillon.find_by(id: gossip.moussaillon_id).anonymous_username %>
   </p>
-  <% if current_moussaillon.id = gossip.moussaillon_id %>
+  <% if current_moussaillon.id == gossip.moussaillon_id %>
     <%= link_to 'Remove this Gossip', gossip, method: :delete %> |
   <% end %>
   <hr style="border: 1px solid white">

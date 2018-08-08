@@ -12,7 +12,7 @@
 
 <p>
   <strong>Moussaillon:</strong>
-  <%= @gossip.moussaillon %>
+  <%= Moussaillon.find_by(id: @gossip.moussaillon_id).anonymous_username %>
 </p>
 
 <%= link_to 'Edit', edit_gossip_path(@gossip) %> |
